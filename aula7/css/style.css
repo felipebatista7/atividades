@@ -1,0 +1,112 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.app{
+  background-color: #F2F2f2;
+  width: 1920px;
+}
+strong{
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+header{
+  width: 20%;
+  height: 100vh;
+  background-color: #da980a;
+  float: left;
+  text-align: center;
+}
+.avatar{
+  margin: 300px auto 20px;
+  
+}
+.avatar img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  border: 3px solid  rgba(218, 190, 10, 0.788);
+}
+nav ul li{
+  padding-top: 10px;
+}
+nav ul li a{
+  text-decoration: none;
+  color: #fff;
+}
+
+nav ul li a:visited{
+  color: #fff
+}
+
+section{
+  width: 80%;
+  float: left;
+  padding-left: 60px;
+}
+
+.conteudo{
+  max-width: 900px;
+}
+.cabecalho{
+  margin: 300px 0 10px;
+}
+.cabecalho h1{
+  font-size: 60px;
+  color: #da980a;
+  margin-bottom: 5px;
+}
+.cabecalho h1 span{
+  color: black;
+}
+.descricao{
+  margin: 20px 0;
+}
+.cabecalho h2 span{
+  color: #da980a;
+}
+.redes{
+  margin-top: 30px;
+}
+.redes ul{
+  list-style: none;
+}
+
+.redes ul li{
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.redes ul li img{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.conhecimentos{
+  margin-top:300px
+}
+.conhecimentos ul {
+  margin-top: 20px;
+  list-style: none;
+}
+.objetivo{
+  margin-top: 300px;
+  max-width: 700px;
+}
+.objetivo h2{
+  margin-bottom: 10px;
+}
+
+.erro{
+  margin-top: 300px;
+  max-width: 900px;
+  text-align: center;
+}
